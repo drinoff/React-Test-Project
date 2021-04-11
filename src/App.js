@@ -1,23 +1,33 @@
-import logo from './logo.svg';
+import Container from '@material-ui/core/Container';
+
+import Typography from '@material-ui/core/Typography';
+import Button from '@material-ui/core/Button';
+
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Container style={{ backgroundColor: '#cfe8fc', height: '100vh' }} maxWidth="xl">
+        {/* <Typography component="div"  /> */}
+        <Button className = 'mainButton' variant="contained" color="primary">
+          Home
+        </Button>
+        <Button className = 'mainButton' variant="contained" color="primary">
+          Work
+        </Button>
+        <Button className = 'mainButton' variant="contained" color="primary">
+          Projects
+        </Button>
+        <Button className = 'mainButton' variant="contained" color="primary">
+          Contact
+        </Button>
+        <Button className = 'mainButton' variant="contained" color="primary" href="#contained-buttons">
+          Galery
+        </Button>
+        <Container className="innerCo"><span>Mallorca FC - Lugo</span></Container>
+
+      </Container>
     </div>
   );
 }

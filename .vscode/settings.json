@@ -1,0 +1,6 @@
+{
+    "git.autofetch": null,
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    }
+}
