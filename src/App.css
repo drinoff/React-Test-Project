@@ -40,3 +40,16 @@
   position: fixed;
   top: 0px;
 }
+.listItem{
+  background-color: aliceblue;
+  border-radius: 12px;
+  width: 50%;
+  position: relative;
+  margin-left: 23%;
+  box-shadow: 0px 0px 23px 3px rgba(0,0,0,0.81);
+  
+}
+.listItem:hover{
+  cursor: pointer;
+  background-color: chartreuse;
+}
