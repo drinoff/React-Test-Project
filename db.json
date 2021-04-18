@@ -1,0 +1,15 @@
+{
+    "matches": [
+      { "id": 1, "match": "Mallorca - Lugo", "prediction": "1" },
+      { "id": 2, "match": "Dynamo Moscow 0 Ural Ekaterinburg", "prediction": "1" },
+      { "id": 3, "match": "Rangers - Hibernians", "prediction": "1" },
+      { "id": 4, "match": "Maccabi Tel Aviv - Maccabi Petach Tikva", "prediction": "1" },
+      { "id": 5, "match": "Kuano Zalgiris - Zalgiris", "prediction": "1" },
+      { "id": 6, "match": "Unterhaching - Dynamo Dresden", "prediction": "1" },
+      { "id": 7, "match": "West Ham - Leicester", "prediction": "1" },
+      { "id": 8, "match": "Real Madrid - Barcelona", "prediction": "1" },
+      { "id": 9, "match": "Inter Milano - Cagliari", "prediction": "1" },
+      { "id": 10, "match": "Juventus - Genua", "prediction": "1" }
+    ]
+    
+}
